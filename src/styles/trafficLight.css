@@ -1,0 +1,32 @@
+.traffic-light-stem{
+    height: 50px;
+    width: 20px;
+    background-color:black;
+    margin: auto;
+}
+.traffic-light-body{
+    height: 200px;
+    width: 80px;
+    background-color: black;
+    margin: auto;
+    border-radius: 2%;
+}
+.light{
+    height: 60px;
+    width: 60px;
+    margin-left:10px;
+    border-radius: 50%;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.selected{
+    box-shadow: 0 0 50px rgb(255, 255, 255),
+                0 0 50px rgb(255, 255, 0.5);
+}
