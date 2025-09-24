@@ -13,7 +13,6 @@ const TrafficLight = () => {
     	});
   	};
 
-	
 	return (
 		<>
             <div className="traffic-light-stem"></div>
